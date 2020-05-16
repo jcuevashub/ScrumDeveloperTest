@@ -4639,31 +4639,37 @@
     ]
   },
   "packageFolders": {
-    "/Users/admin/.nuget/packages/": {}
+    "C:\\Users\\Aderl\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/admin/ScrumDeveloper/ScrumDeveloperExam/MorseCodeTest/MorseCodeTest.csproj",
+      "projectUniqueName": "D:\\Certified Scrum Developer\\MorseCode2\\ScrumDeveloperTest\\MorseCodeTest\\MorseCodeTest.csproj",
       "projectName": "MorseCodeTest",
-      "projectPath": "/Users/admin/ScrumDeveloper/ScrumDeveloperExam/MorseCodeTest/MorseCodeTest.csproj",
-      "packagesPath": "/Users/admin/.nuget/packages/",
-      "outputPath": "/Users/admin/ScrumDeveloper/ScrumDeveloperExam/MorseCodeTest/obj/",
+      "projectPath": "D:\\Certified Scrum Developer\\MorseCode2\\ScrumDeveloperTest\\MorseCodeTest\\MorseCodeTest.csproj",
+      "packagesPath": "C:\\Users\\Aderl\\.nuget\\packages\\",
+      "outputPath": "D:\\Certified Scrum Developer\\MorseCode2\\ScrumDeveloperTest\\MorseCodeTest\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "/Users/admin/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Aderl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "/Users/admin/ScrumDeveloper/ScrumDeveloperExam/MorseCode/MorseCode.csproj": {
-              "projectPath": "/Users/admin/ScrumDeveloper/ScrumDeveloperExam/MorseCode/MorseCode.csproj"
+            "D:\\Certified Scrum Developer\\MorseCode2\\ScrumDeveloperTest\\MorseCode\\MorseCode.csproj": {
+              "projectPath": "D:\\Certified Scrum Developer\\MorseCode2\\ScrumDeveloperTest\\MorseCode\\MorseCode.csproj"
             }
           }
         }
@@ -4708,6 +4714,10 @@
           {
             "name": "Microsoft.NETCore.App.Ref",
             "version": "[3.0.0, 3.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
           }
         ],
         "frameworkReferences": {
@@ -4715,7 +4725,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

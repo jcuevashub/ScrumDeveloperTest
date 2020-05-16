@@ -180,24 +180,30 @@
     ]
   },
   "packageFolders": {
-    "/Users/admin/.nuget/packages/": {}
+    "C:\\Users\\Aderl\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/admin/ScrumDeveloper/ScrumDeveloperExam/MorseCode/MorseCode.csproj",
+      "projectUniqueName": "D:\\Certified Scrum Developer\\MorseCode2\\ScrumDeveloperTest\\MorseCode\\MorseCode.csproj",
       "projectName": "MorseCode",
-      "projectPath": "/Users/admin/ScrumDeveloper/ScrumDeveloperExam/MorseCode/MorseCode.csproj",
-      "packagesPath": "/Users/admin/.nuget/packages/",
-      "outputPath": "/Users/admin/ScrumDeveloper/ScrumDeveloperExam/MorseCode/obj/",
+      "projectPath": "D:\\Certified Scrum Developer\\MorseCode2\\ScrumDeveloperTest\\MorseCode\\MorseCode.csproj",
+      "packagesPath": "C:\\Users\\Aderl\\.nuget\\packages\\",
+      "outputPath": "D:\\Certified Scrum Developer\\MorseCode2\\ScrumDeveloperTest\\MorseCode\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "/Users/admin/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Aderl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -231,7 +237,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
