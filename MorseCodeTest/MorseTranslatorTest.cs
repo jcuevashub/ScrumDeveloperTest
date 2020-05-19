@@ -1,5 +1,7 @@
 ﻿using MorseCode;
 using NUnit.Framework;
+using System;
+using System.Runtime.CompilerServices;
 
 namespace MorseCodeTest
 {
@@ -9,32 +11,42 @@ namespace MorseCodeTest
      * [TestCase("E", ".")] DONE
         [TestCase("SOS", "...|---|...")]
         [TestCase("SOS SOS", "...|---|... ...|---|...")]
-        [TestCase("ADERLIS Y EDWIN", ".-|-..|.|.-.|.-..|.|... -.-- .|-..|.--|.|-.")]
+        c
         [TestCase("WILSON Y OMAR", ".--|.|.-..|...|---|-. -.-- ---|--|.-|.-.")]
         [TestCase("JACKSON Y ROBERT", ".---|.-|-.-.|-.-|...|---|-. -.-- .-.|---|-...|.|.-.|-")]
         [TestCase("SCRUM DEVELOPER", "...|-.-.|.-.|..-|-- -..|.|...-|.|.-..|---|.--.|.|.-.")]
         [TestCase("ALOES PMS", ".-|.-..|---|.|... .--.|--|...")]
+         [Test]
+
      */
     [TestFixture]
     public class MorseTranslatorTest
     {
-        [Test]
-        public void Empty_String_Returns_Empty_String() {
-            var translator = new MorseTranslator();
-
-            string response = translator.Translate("");
-
-            Assert.That(response, Is.Empty);
-        }
-
-        [Test]
-        public void String_With_E_Returns_Dot()
+        [TestCase(" ", "")]
+        [TestCase("", "")]
+        [TestCase("ALOES PMS", ".-|.-..|---|.|... .--.|--|...")]
+        [TestCase("SCRUM DEVELOPER", "...|-.-.|.-.|..-|-- -..|.|...-|.|.-..|---|.--.|.|.-.")]
+        [TestCase("JACKSON Y ROBERT", ".---|.-|-.-.|-.-|...|---|-. -.-- .-.|---|-...|.|.-.|-")]
+        [TestCase("WILSON Y OMAR", ".--|.|.-..|...|---|-. -.-- ---|--|.-|.-.")]
+        [TestCase("ADERLIS Y EDWIN", ".-|-..|.|.-.|.-..|.|... -.-- .|-..|.--|.|-.")]
+        [TestCase("SOS SOS", "...|---|... ...|---|...")]
+        [TestCase("SOS", "...|---|...")]
+        [TestCase("E", ".")]
+        public void String_Message_Return_Morse_Code(string message, string morseCode)
         {
             var translator = new MorseTranslator();
 
-            string response = translator.Translate("E");
+            string response = translator.Translate(message);
 
-            Assert.That(response, Is.EqualTo("."));
+            Assert.That(response, Is.EqualTo(morseCode));
+        }
+
+        [Test]
+        public void Null_Message_Return_ArgumentNullException()
+        {
+            var translator = new MorseTranslator();
+
+            Assert.Throws(Is.TypeOf<ArgumentNullException>(), () => translator.Translate(null));
         }
     }
 }

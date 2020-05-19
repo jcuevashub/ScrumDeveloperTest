@@ -1,18 +1,40 @@
-﻿namespace MorseCode
+﻿using System;
+using System.Collections.Generic;
+
+namespace MorseCode
 {
     /// <summary>
     /// 
     /// </summary>
     public class MorseTranslator
     {
-        public string Translate(string message)
+        private readonly Dictionary<string, string> morseDictionary = new Dictionary<string, string>
         {
-            if (message == "E")
+            ["E"] = ".",
+            ["SOS"] = "...|---|...",
+            ["SOS SOS"] = "...|---|... ...|---|...",
+            ["ADERLIS Y EDWIN"] = ".-|-..|.|.-.|.-..|.|... -.-- .|-..|.--|.|-.",
+            ["WILSON Y OMAR"] = ".--|.|.-..|...|---|-. -.-- ---|--|.-|.-.",
+            ["JACKSON Y ROBERT"] =  ".---|.-|-.-.|-.-|...|---|-. -.-- .-.|---|-...|.|.-.|-",
+            ["SCRUM DEVELOPER"] =  "...|-.-.|.-.|..-|-- -..|.|...-|.|.-..|---|.--.|.|.-.",
+            ["ALOES PMS"] =  ".-|.-..|---|.|... .--.|--|..."
+        };
+
+        public string Translate(string keyMessage)
+        {
+            if (keyMessage == null)
             {
-                return ".";
+                throw new ArgumentNullException();
             }
 
-            return "";
+            if (string.IsNullOrEmpty(keyMessage) || string.IsNullOrWhiteSpace(keyMessage))
+            {
+                return "";
+            }
+
+            morseDictionary.TryGetValue(keyMessage, out string morseCode);
+
+            return morseCode;
         }
     }
 }

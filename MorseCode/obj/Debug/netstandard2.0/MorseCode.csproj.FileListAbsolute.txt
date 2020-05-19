@@ -24,3 +24,12 @@ D:\Certified Scrum Developer\MorseCode2\ScrumDeveloperTest\MorseCode\obj\Debug\n
 D:\Certified Scrum Developer\MorseCode2\ScrumDeveloperTest\MorseCode\obj\Debug\netstandard2.0\MorseCode.AssemblyInfo.cs
 D:\Certified Scrum Developer\MorseCode2\ScrumDeveloperTest\MorseCode\obj\Debug\netstandard2.0\MorseCode.dll
 D:\Certified Scrum Developer\MorseCode2\ScrumDeveloperTest\MorseCode\obj\Debug\netstandard2.0\MorseCode.pdb
+C:\Users\the__\Documents\WEPSYS\ScrumDeveloperTest\MorseCode\bin\Debug\netstandard2.0\MorseCode.deps.json
+C:\Users\the__\Documents\WEPSYS\ScrumDeveloperTest\MorseCode\bin\Debug\netstandard2.0\MorseCode.dll
+C:\Users\the__\Documents\WEPSYS\ScrumDeveloperTest\MorseCode\bin\Debug\netstandard2.0\MorseCode.pdb
+C:\Users\the__\Documents\WEPSYS\ScrumDeveloperTest\MorseCode\obj\Debug\netstandard2.0\MorseCode.csprojAssemblyReference.cache
+C:\Users\the__\Documents\WEPSYS\ScrumDeveloperTest\MorseCode\obj\Debug\netstandard2.0\MorseCode.csproj.CoreCompileInputs.cache
+C:\Users\the__\Documents\WEPSYS\ScrumDeveloperTest\MorseCode\obj\Debug\netstandard2.0\MorseCode.AssemblyInfoInputs.cache
+C:\Users\the__\Documents\WEPSYS\ScrumDeveloperTest\MorseCode\obj\Debug\netstandard2.0\MorseCode.AssemblyInfo.cs
+C:\Users\the__\Documents\WEPSYS\ScrumDeveloperTest\MorseCode\obj\Debug\netstandard2.0\MorseCode.dll
+C:\Users\the__\Documents\WEPSYS\ScrumDeveloperTest\MorseCode\obj\Debug\netstandard2.0\MorseCode.pdb

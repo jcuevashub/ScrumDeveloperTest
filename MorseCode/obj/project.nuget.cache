@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Dr19B8X0N1Br4em2H/EhNTyhP/VYYrTQUtdAvqkI+lXVqPE+6rwb6h8F2F8bGB7jrNI/4Cr2fYL2zui2m2W4Ng==",
+  "dgSpecHash": "MtlAqHZhk6iqNTtn3aVOQNEDQxFJE2/pk6ahU5YuzZa88qrBJ+V3Xe+OTd3RjDE/rdUH7nMo35uFrzqYct2odA==",
   "success": true,
-  "projectFilePath": "/Users/admin/ScrumDeveloper/ScrumDeveloperExam/MorseCode/MorseCode.csproj",
+  "projectFilePath": "C:\\Users\\the__\\Documents\\WEPSYS\\ScrumDeveloperTest\\MorseCode\\MorseCode.csproj",
   "expectedPackageFiles": [
-    "/Users/admin/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "/Users/admin/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\the__\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\the__\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }
